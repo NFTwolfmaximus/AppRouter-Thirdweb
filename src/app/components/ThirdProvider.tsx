@@ -5,7 +5,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 
 const ThirdProvider = ({children} : any) =>{
     return(
-        <ThirdwebProvider>
+        <ThirdwebProvider clientId ={'58ab40a857e09d196d2a59cf9614524c'}>
             {children}
         </ThirdwebProvider>
     )
